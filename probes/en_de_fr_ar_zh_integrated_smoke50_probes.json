@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "arabic_partial_455d42d0b0d2",
+    "text": "المعلومات مقرها في بالو ألتو، كاليفورنيا، وال",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 1753,
+      "article_id": "8186",
+      "title": "هيوليت-باكارد",
+      "url": "https://ar.wikipedia.org/wiki/%D9%87%D9%8A%D9%88%D9%84%D9%8A%D8%AA-%D8%A8%D8%A7%D9%83%D8%A7%D8%B1%D8%AF",
+      "source_span": "والتي",
+      "cut_length": 3,
+      "source_span_length": 5,
+      "span_start_in_fragment": 132
+    }
+  },
+  {
+    "id": "french_partial_c68e7ac402a6",
+    "text": "services internet, ancienne filiale du groupe divers",
+    "category": "french_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 118,
+      "article_id": "268",
+      "title": "AOL",
+      "url": "https://fr.wikipedia.org/wiki/AOL",
+      "source_span": "diversifié",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 98
+    }
+  },
+  {
+    "id": "german_partial_11deca296b05",
+    "text": "Mittel- und Nordeu",
+    "category": "german_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 5842,
+      "article_id": "9895",
+      "title": "934",
+      "url": "https://de.wikipedia.org/wiki/934",
+      "source_span": "Nordeuropa",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 12
+    }
+  },
+  {
+    "id": "french_partial_8c034656e1e3",
+    "text": "médaille militaire est une décoration militaire fran",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 4328,
+      "article_id": "8598",
+      "title": "Médaille militaire",
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9daille%20militaire",
+      "source_span": "française",
+      "cut_length": 4,
+      "source_span_length": 9,
+      "span_start_in_fragment": 51
+    }
+  },
+  {
+    "id": "english_partial_823c11159441",
+    "text": "Kroger gestures for Harold to shoot Merr",
+    "category": "english_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "Merrigan",
+      "cut_length": 4,
+      "source_word_length": 8,
+      "word_start_in_fragment": 36
+    }
+  },
+  {
+    "id": "german_partial_a17ded813608",
+    "text": "Jahren veraltetes, im SI-Einheitensystem nicht mehr zuläss",
+    "category": "german_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 2438,
+      "article_id": "4200",
+      "title": "Quadratmeter",
+      "url": "https://de.wikipedia.org/wiki/Quadratmeter",
+      "source_span": "zulässiges",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 110
+    }
+  },
+  {
+    "id": "german_partial_a113063d32eb",
+    "text": "auch Sekundärbatt",
+    "category": "german_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 136,
+      "article_id": "226",
+      "title": "Akkumulator",
+      "url": "https://de.wikipedia.org/wiki/Akkumulator",
+      "source_span": "Sekundärbatterie",
+      "cut_length": 12,
+      "source_span_length": 16,
+      "span_start_in_fragment": 5
+    }
+  },
+  {
+    "id": "arabic_partial_02f5f87c8764",
+    "text": "ثم نهاية صغرى مع ازدياد قيم الع",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 3369,
+      "article_id": "15041",
+      "title": "روتون",
+      "url": "https://ar.wikipedia.org/wiki/%D8%B1%D9%88%D8%AA%D9%88%D9%86",
+      "source_span": "العزم",
+      "cut_length": 3,
+      "source_span_length": 5,
+      "span_start_in_fragment": 129
+    }
+  },
+  {
+    "id": "french_partial_ec6f850ba857",
+    "text": "base conj",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 3552,
+      "article_id": "7202",
+      "title": "Cyanure",
+      "url": "https://fr.wikipedia.org/wiki/Cyanure",
+      "source_span": "conjuguée",
+      "cut_length": 4,
+      "source_span_length": 9,
+      "span_start_in_fragment": 5
+    }
+  },
+  {
+    "id": "german_partial_d8b244e18b3a",
+    "text": "Clara Zetkin schlägt auf der Zweiten Internation",
+    "category": "german_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 3350,
+      "article_id": "5845",
+      "title": "1910er",
+      "url": "https://de.wikipedia.org/wiki/1910er",
+      "source_span": "Internationalen",
+      "cut_length": 11,
+      "source_span_length": 15,
+      "span_start_in_fragment": 83
+    }
+  },
+  {
+    "id": "english_partial_02b7f353be09",
+    "text": "After Time (1995), 12 Songs of Christ",
+    "category": "english_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "Christmas",
+      "cut_length": 6,
+      "source_word_length": 9,
+      "word_start_in_fragment": 68
+    }
+  },
+  {
+    "id": "german_partial_40089ccb578c",
+    "text": "Das Lehnwo",
+    "category": "german_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 4906,
+      "article_id": "8016",
+      "title": "Woiwodschaft",
+      "url": "https://de.wikipedia.org/wiki/Woiwodschaft",
+      "source_span": "Lehnwort",
+      "cut_length": 6,
+      "source_span_length": 8,
+      "span_start_in_fragment": 4
+    }
+  },
+  {
+    "id": "arabic_partial_9c3d1c213e26",
+    "text": "ng Pilipinas) هو الحزب الشيوعي الأساسي والأ",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.7,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 5176,
+      "article_id": "21561",
+      "title": "الحزب الشيوعي الفليبيني",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8%20%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%B9%D9%8A%20%D8%A7%D9%84%D9%81%D9%84%D9%8A%D8%A8%D9%8A%D9%86%D9%8A",
+      "source_span": "والأول",
+      "cut_length": 4,
+      "source_span_length": 6,
+      "span_start_in_fragment": 57
+    }
+  },
+  {
+    "id": "german_partial_d801fba31a1f",
+    "text": "ist eine im afrikanischen Süd-Uganda verbreitete Bantus",
+    "category": "german_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 5506,
+      "article_id": "9287",
+      "title": "Luganda",
+      "url": "https://de.wikipedia.org/wiki/Luganda",
+      "source_span": "Bantusprache",
+      "cut_length": 6,
+      "source_span_length": 12,
+      "span_start_in_fragment": 56
+    }
+  },
+  {
+    "id": "chinese_partial_dd5915443bfd",
+    "text": "公元122年,哈德良为防御北部",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.6,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 2989,
+      "article_id": "10869",
+      "title": "哈德良长城",
+      "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E5%BE%B7%E8%89%AF%E9%95%BF%E5%9F%8E",
+      "source_span": "哈德良为防御北部皮克特人反攻",
+      "cut_length": 8,
+      "source_span_length": 14,
+      "span_start_in_fragment": 7
+    }
+  },
+  {
+    "id": "chinese_partial_c0dc728338bc",
+    "text": "山西地區有獨特的语言、風俗,省內土地豐足、矿产資",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.6,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 121,
+      "article_id": "445",
+      "title": "山西省",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E8%A5%BF%E7%9C%81",
+      "source_span": "矿产資源豐富",
+      "cut_length": 3,
+      "source_span_length": 6,
+      "span_start_in_fragment": 21
+    }
+  },
+  {
+    "id": "arabic_partial_60b01b31f24a",
+    "text": "في أواسط يناي",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.8,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 1471,
+      "article_id": "6856",
+      "title": "الاضطراب المدني في بيليز 2005",
+      "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%20%D9%81%D9%8A%20%D8%A8%D9%8A%D9%84%D9%8A%D8%B2%202005",
+      "source_span": "يناير",
+      "cut_length": 4,
+      "source_span_length": 5,
+      "span_start_in_fragment": 9
+    }
+  },
+  {
+    "id": "english_partial_883d60ea496e",
+    "text": "16th century, while Goan and Mangalorean Cath",
+    "category": "english_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "Catholics",
+      "cut_length": 4,
+      "source_word_length": 9,
+      "word_start_in_fragment": 138
+    }
+  },
+  {
+    "id": "german_partial_11bf9237703e",
+    "text": "Jahrhundert die Hauptst",
+    "category": "german_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 798,
+      "article_id": "1382",
+      "title": "Edinburgh",
+      "url": "https://de.wikipedia.org/wiki/Edinburgh",
+      "source_span": "Hauptstadt",
+      "cut_length": 7,
+      "source_span_length": 10,
+      "span_start_in_fragment": 16
+    }
+  },
+  {
+    "id": "french_partial_397d2b372417",
+    "text": "par le dernier patriarche national, Euthyme, corre",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 4149,
+      "article_id": "8269",
+      "title": "Années 1370",
+      "url": "https://fr.wikipedia.org/wiki/Ann%C3%A9es%201370",
+      "source_span": "correcteur",
+      "cut_length": 5,
+      "source_span_length": 10,
+      "span_start_in_fragment": 102
+    }
+  },
+  {
+    "id": "arabic_partial_4146b45e9e81",
+    "text": "والعشرين من الشهر العاشر) هو اليوم الخ",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 3080,
+      "article_id": "13759",
+      "title": "22 أكتوبر",
+      "url": "https://ar.wikipedia.org/wiki/22%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1",
+      "source_span": "الخامس",
+      "cut_length": 3,
+      "source_span_length": 6,
+      "span_start_in_fragment": 94
+    }
+  },
+  {
+    "id": "english_partial_04df96c043c9",
+    "text": "in appealing to the Admiralty without consult",
+    "category": "english_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00001-of-00002.parquet",
+      "source_word": "consulting",
+      "cut_length": 7,
+      "source_word_length": 10,
+      "word_start_in_fragment": 90
+    }
+  },
+  {
+    "id": "english_partial_72bd1f693f28",
+    "text": "May made 29 appearan",
+    "category": "english_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "appearances",
+      "cut_length": 8,
+      "source_word_length": 11,
+      "word_start_in_fragment": 12
+    }
+  },
+  {
+    "id": "chinese_partial_3699d4326e2e",
+    "text": "兔形目是哺乳动物中一个存在谱系归置",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 6021,
+      "article_id": "17293",
+      "title": "兔形目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%94%E5%BD%A2%E7%9B%AE",
+      "source_span": "中一个存在谱系归置困难的目",
+      "cut_length": 9,
+      "source_span_length": 13,
+      "span_start_in_fragment": 8
+    }
+  },
+  {
+    "id": "german_partial_78db2bb20c97",
+    "text": "entthront ihn und setzt ihn lebenslang gefan",
+    "category": "german_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 4593,
+      "article_id": "7132",
+      "title": "1235",
+      "url": "https://de.wikipedia.org/wiki/1235",
+      "source_span": "gefangen",
+      "cut_length": 5,
+      "source_span_length": 8,
+      "span_start_in_fragment": 76
+    }
+  },
+  {
+    "id": "chinese_partial_747d6a6a84ad",
+    "text": "s anatomy,以肉眼觀察的解剖學)、组织学(微觀的以顯微鏡觀察的解剖學)、细胞学",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.45,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 1245,
+      "article_id": "4167",
+      "title": "人体解剖学",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E4%BD%93%E8%A7%A3%E5%89%96%E5%AD%A6",
+      "source_span": "细胞学和胚胎学",
+      "cut_length": 3,
+      "source_span_length": 7,
+      "span_start_in_fragment": 58
+    }
+  },
+  {
+    "id": "arabic_partial_1d7c71bbc2cb",
+    "text": "المُركب الكيميائي هو مادة كيميائية تكون",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.8,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 4107,
+      "article_id": "17620",
+      "title": "مركب كيميائي",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B1%D9%83%D8%A8%20%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A6%D9%8A",
+      "source_span": "تكونت",
+      "cut_length": 4,
+      "source_span_length": 5,
+      "span_start_in_fragment": 35
+    }
+  },
+  {
+    "id": "french_partial_a5b803fb28aa",
+    "text": "l'équivalent du 8 frimaire du calendrier républ",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 2392,
+      "article_id": "3904",
+      "title": "28 novembre",
+      "url": "https://fr.wikipedia.org/wiki/28%20novembre",
+      "source_span": "républicain",
+      "cut_length": 6,
+      "source_span_length": 11,
+      "span_start_in_fragment": 62
+    }
+  },
+  {
+    "id": "chinese_partial_2ab3a3362803",
+    "text": "圖從摩洛哥王國手中奪取丹吉爾,但全軍覆沒,軍隊指揮官斐迪南王子被俘,直到1443年",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.45,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 5107,
+      "article_id": "14957",
+      "title": "1437年",
+      "url": "https://zh.wikipedia.org/wiki/1437%E5%B9%B4",
+      "source_span": "年去世",
+      "cut_length": 1,
+      "source_span_length": 3,
+      "span_start_in_fragment": 44
+    }
+  },
+  {
+    "id": "arabic_partial_1623a4404a47",
+    "text": "ملوك أسرة تيودور خلفًا لوالده هنري السا",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.7,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 4257,
+      "article_id": "18167",
+      "title": "هنري الثامن ملك إنجلترا",
+      "url": "https://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%B1%D9%8A%20%D8%A7%D9%84%D8%AB%D8%A7%D9%85%D9%86%20%D9%85%D9%84%D9%83%20%D8%A5%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7",
+      "source_span": "السابع",
+      "cut_length": 4,
+      "source_span_length": 6,
+      "span_start_in_fragment": 56
+    }
+  },
+  {
+    "id": "french_partial_327604ab662e",
+    "text": "de romans, metteur en scène, acteur, produc",
+    "category": "french_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 6590,
+      "article_id": "11832",
+      "title": "François Billetdoux",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois%20Billetdoux",
+      "source_span": "producteur",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 131
+    }
+  },
+  {
+    "id": "chinese_partial_a3f288ce71fa",
+    "text": "在标准状况下,氟和氯是气体,溴",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.45,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 598,
+      "article_id": "2103",
+      "title": "卤素",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A4%E7%B4%A0",
+      "source_span": "溴是液体",
+      "cut_length": 1,
+      "source_span_length": 4,
+      "span_start_in_fragment": 14
+    }
+  },
+  {
+    "id": "french_partial_b3daef71f04e",
+    "text": "rouge vif ou rose selon les vari",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 2675,
+      "article_id": "5051",
+      "title": "Cognassier du Japon",
+      "url": "https://fr.wikipedia.org/wiki/Cognassier%20du%20Japon",
+      "source_span": "variétés",
+      "cut_length": 4,
+      "source_span_length": 8,
+      "span_start_in_fragment": 191
+    }
+  },
+  {
+    "id": "english_partial_687fd9680fcc",
+    "text": "film, Let It Be, and its accomp",
+    "category": "english_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "accompanying",
+      "cut_length": 6,
+      "source_word_length": 12,
+      "word_start_in_fragment": 160
+    }
+  },
+  {
+    "id": "chinese_partial_731aa8a68c9b",
+    "text": "康熙四十七年九月胤礽以“赋性奢侈”、“暴虐淫乱”、“语",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.45,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 5370,
+      "article_id": "15229",
+      "title": "1708年",
+      "url": "https://zh.wikipedia.org/wiki/1708%E5%B9%B4",
+      "source_span": "语言颠倒",
+      "cut_length": 1,
+      "source_span_length": 4,
+      "span_start_in_fragment": 26
+    }
+  },
+  {
+    "id": "french_partial_dd6e86fa3504",
+    "text": "Dans le domaine de l'aliment",
+    "category": "french_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 6803,
+      "article_id": "12273",
+      "title": "Appenzell (homonymie)",
+      "url": "https://fr.wikipedia.org/wiki/Appenzell%20%28homonymie%29",
+      "source_span": "l'alimentation",
+      "cut_length": 9,
+      "source_span_length": 14,
+      "span_start_in_fragment": 19
+    }
+  },
+  {
+    "id": "arabic_partial_aecf55db8925",
+    "text": "2 نوفمبر، أو 2 تشري",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.8,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 588,
+      "article_id": "2794",
+      "title": "2 نوفمبر",
+      "url": "https://ar.wikipedia.org/wiki/2%20%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1",
+      "source_span": "تشرين",
+      "cut_length": 4,
+      "source_span_length": 5,
+      "span_start_in_fragment": 15
+    }
+  },
+  {
+    "id": "french_partial_6848897d833f",
+    "text": "Il parv",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 5375,
+      "article_id": "10105",
+      "title": "1480",
+      "url": "https://fr.wikipedia.org/wiki/1480",
+      "source_span": "parvient",
+      "cut_length": 4,
+      "source_span_length": 8,
+      "span_start_in_fragment": 3
+    }
+  },
+  {
+    "id": "english_partial_cb7f2a001cd6",
+    "text": "intelligence is introduced, which makes computer-controlled vehi",
+    "category": "english_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "vehicles",
+      "cut_length": 4,
+      "source_word_length": 8,
+      "word_start_in_fragment": 102
+    }
+  },
+  {
+    "id": "arabic_partial_e4b9621b8f74",
+    "text": "من خصائص الهاتف الثابت مقا",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 3449,
+      "article_id": "15448",
+      "title": "هاتف ثابت",
+      "url": "https://ar.wikipedia.org/wiki/%D9%87%D8%A7%D8%AA%D9%81%20%D8%AB%D8%A7%D8%A8%D8%AA",
+      "source_span": "مقارنة",
+      "cut_length": 3,
+      "source_span_length": 6,
+      "span_start_in_fragment": 23
+    }
+  },
+  {
+    "id": "chinese_partial_327011e7bc9d",
+    "text": "受美国国",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.6,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 2273,
+      "article_id": "7750",
+      "title": "11月26日",
+      "url": "https://zh.wikipedia.org/wiki/11%E6%9C%8826%E6%97%A5",
+      "source_span": "受美国国会的请求",
+      "cut_length": 4,
+      "source_span_length": 8,
+      "span_start_in_fragment": 0
+    }
+  },
+  {
+    "id": "english_partial_461b59f8db32",
+    "text": "verdict to the original court and deman",
+    "category": "english_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "demanded",
+      "cut_length": 5,
+      "source_word_length": 8,
+      "word_start_in_fragment": 51
+    }
+  },
+  {
+    "id": "arabic_partial_9c6a90d92af6",
+    "text": "وتقسّم المحافظة إدا",
+    "category": "arabic_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "arabic",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.ar",
+      "split": "train",
+      "source_row_index": 4745,
+      "article_id": "19558",
+      "title": "محافظة كفر الشيخ",
+      "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9%20%D9%83%D9%81%D8%B1%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE",
+      "source_span": "إدارياً",
+      "cut_length": 3,
+      "source_span_length": 7,
+      "span_start_in_fragment": 16
+    }
+  },
+  {
+    "id": "french_partial_69d0642ca9bd",
+    "text": "1179 est une année commune qui comm",
+    "category": "french_partial",
+    "truncation_ratio": 0.55,
+    "source_lang": "french",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.fr",
+      "split": "train",
+      "source_row_index": 6238,
+      "article_id": "11401",
+      "title": "1179",
+      "url": "https://fr.wikipedia.org/wiki/1179",
+      "source_span": "commence",
+      "cut_length": 4,
+      "source_span_length": 8,
+      "span_start_in_fragment": 39
+    }
+  },
+  {
+    "id": "chinese_partial_9ef012f93fa1",
+    "text": "曾任中共第十六届中央政治",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 1968,
+      "article_id": "6695",
+      "title": "黄菊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8F%8A",
+      "source_span": "曾任中共第十六届中央政治局常务委",
+      "cut_length": 12,
+      "source_span_length": 16,
+      "span_start_in_fragment": 0
+    }
+  },
+  {
+    "id": "english_partial_4a3f6a78b41e",
+    "text": "reported in 13 states from West Virgin",
+    "category": "english_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00001-of-00002.parquet",
+      "source_word": "Virginia",
+      "cut_length": 6,
+      "source_word_length": 8,
+      "word_start_in_fragment": 171
+    }
+  },
+  {
+    "id": "german_partial_64440fe363df",
+    "text": "Filmed",
+    "category": "german_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 805,
+      "article_id": "1393",
+      "title": "Editor",
+      "url": "https://de.wikipedia.org/wiki/Editor",
+      "source_span": "Filmeditor",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 0
+    }
+  },
+  {
+    "id": "german_partial_8756a59d2c08",
+    "text": "wurden insbesondere für das Füllen von Bettde",
+    "category": "german_partial",
+    "truncation_ratio": 0.65,
+    "source_lang": "german",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.de",
+      "split": "train",
+      "source_row_index": 812,
+      "article_id": "1407",
+      "title": "Eiderenten",
+      "url": "https://de.wikipedia.org/wiki/Eiderenten",
+      "source_span": "Bettdecken",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 107
+    }
+  },
+  {
+    "id": "chinese_partial_d9dd1d501948",
+    "text": "4或5世纪时,西罗马帝国雖频繁地用「」称呼主教,在东罗马帝国,尤其是在希腊",
+    "category": "chinese_partial",
+    "truncation_ratio": 0.6,
+    "source_lang": "chinese",
+    "metadata": {
+      "probe_type": "wikipedia_multilingual_internal_truncation",
+      "source_dataset": "wikimedia/wikipedia",
+      "dataset_config": "20231101.zh",
+      "split": "train",
+      "source_row_index": 1741,
+      "article_id": "5836",
+      "title": "教宗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%95%99%E5%AE%97",
+      "source_span": "尤其是在希腊和俄罗斯",
+      "cut_length": 6,
+      "source_span_length": 10,
+      "span_start_in_fragment": 31
+    }
+  },
+  {
+    "id": "english_partial_00d0611d8824",
+    "text": "Ranariddh was minted to the twin positi",
+    "category": "english_partial",
+    "truncation_ratio": 0.75,
+    "source_lang": "english",
+    "metadata": {
+      "probe_type": "wikitext_word_internal_truncation",
+      "source_dataset": "wikitext",
+      "source_file": "wikitext-103-raw-v1/train-00000-of-00002.parquet",
+      "source_word": "positions",
+      "cut_length": 6,
+      "source_word_length": 9,
+      "word_start_in_fragment": 120
+    }
+  }
+]

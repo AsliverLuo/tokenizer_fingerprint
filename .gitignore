@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+.agents/
+.codex/
+
+# Large local artifacts / reference data
+probes/en_de_fr_ar_zh_integrated_500000_probes.json
+reference_bank/probes_used.json
+reference_bank/llama/*.json
+reference_bank/qwen/*.json
+reference_bank/raw_tokens/*.jsonl

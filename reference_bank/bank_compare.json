@@ -1,0 +1,1182 @@
+{
+  "reference": "reference_bank_local_multilingual_500k_20260714_105014",
+  "excluded_probe_count": 0,
+  "n_models": 11,
+  "n_pairs": 55,
+  "models": [
+    {
+      "model": "Qwen2.5-7B-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3-8B-Base-Local",
+      "top1_score": 0.667976,
+      "top1_minus_top2": 0.09271799999999997,
+      "same_source": true
+    },
+    {
+      "model": "Qwen2.5-7B-Instruct-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3-8B-Local",
+      "top1_score": 0.526348,
+      "top1_minus_top2": 0.012348000000000026,
+      "same_source": false
+    },
+    {
+      "model": "Qwen3-1.7B-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3.5-9B-Base-Local",
+      "top1_score": 0.375648,
+      "top1_minus_top2": 0.042915999999999954,
+      "same_source": false
+    },
+    {
+      "model": "Qwen3-8B-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3.5-9B-Local",
+      "top1_score": 0.532546,
+      "top1_minus_top2": 0.006197999999999926,
+      "same_source": false
+    },
+    {
+      "model": "Qwen3-8B-Base-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen2.5-7B-Local",
+      "top1_score": 0.667976,
+      "top1_minus_top2": 0.08357400000000004,
+      "same_source": true
+    },
+    {
+      "model": "Qwen3.5-9B-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3.5-9B-Base-Local",
+      "top1_score": 0.717328,
+      "top1_minus_top2": 0.184782,
+      "same_source": true
+    },
+    {
+      "model": "Qwen3.5-9B-Base-Local",
+      "family": "qwen",
+      "n_probes": 500000,
+      "top1_model": "Qwen3.5-9B-Local",
+      "top1_score": 0.717328,
+      "top1_minus_top2": 0.19485799999999998,
+      "same_source": true
+    },
+    {
+      "model": "Meta-Llama-3-8B-Local",
+      "family": "llama",
+      "n_probes": 500000,
+      "top1_model": "Meta-Llama-3.1-8B-Local",
+      "top1_score": 0.832502,
+      "top1_minus_top2": 0.2524799999999999,
+      "same_source": true
+    },
+    {
+      "model": "Meta-Llama-3-8B-Instruct-Local",
+      "family": "llama",
+      "n_probes": 500000,
+      "top1_model": "Meta-Llama-3.1-8B-Instruct-Local",
+      "top1_score": 0.574846,
+      "top1_minus_top2": 0.13202399999999997,
+      "same_source": true
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Local",
+      "family": "llama",
+      "n_probes": 500000,
+      "top1_model": "Meta-Llama-3-8B-Local",
+      "top1_score": 0.832502,
+      "top1_minus_top2": 0.2481,
+      "same_source": true
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family": "llama",
+      "n_probes": 500000,
+      "top1_model": "Meta-Llama-3-8B-Instruct-Local",
+      "top1_score": 0.574846,
+      "top1_minus_top2": 0.049447999999999936,
+      "same_source": false
+    }
+  ],
+  "pairs": [
+    {
+      "model_a": "Meta-Llama-3-8B-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.832502,
+      "bcs": 0.832502,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.847116,
+      "byte_length_match_rate": 0.843922,
+      "token_type_match_rate": 0.911144,
+      "prefix_match_rate": 0.975978,
+      "empty_match_rate": 0.963396
+    },
+    {
+      "model_a": "Qwen3.5-9B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.717328,
+      "bcs": 0.717328,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.728132,
+      "byte_length_match_rate": 0.723296,
+      "token_type_match_rate": 0.97494,
+      "prefix_match_rate": 0.999936,
+      "empty_match_rate": 0.998564
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.667976,
+      "bcs": 0.667976,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.698928,
+      "byte_length_match_rate": 0.691748,
+      "token_type_match_rate": 0.844094,
+      "prefix_match_rate": 0.948616,
+      "empty_match_rate": 0.961704
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.584402,
+      "bcs": 0.584402,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.618084,
+      "byte_length_match_rate": 0.609872,
+      "token_type_match_rate": 0.80765,
+      "prefix_match_rate": 0.946764,
+      "empty_match_rate": 0.930294
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.580022,
+      "bcs": 0.580022,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.61259,
+      "byte_length_match_rate": 0.604332,
+      "token_type_match_rate": 0.805458,
+      "prefix_match_rate": 0.949078,
+      "empty_match_rate": 0.925078
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.575258,
+      "bcs": 0.575258,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.611252,
+      "byte_length_match_rate": 0.602956,
+      "token_type_match_rate": 0.802234,
+      "prefix_match_rate": 0.94284,
+      "empty_match_rate": 0.933534
+    },
+    {
+      "model_a": "Meta-Llama-3-8B-Instruct-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.574846,
+      "bcs": 0.574846,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.58476,
+      "byte_length_match_rate": 0.583638,
+      "token_type_match_rate": 0.962874,
+      "prefix_match_rate": 0.998036,
+      "empty_match_rate": 0.99302
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.570634,
+      "bcs": 0.570634,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.60583,
+      "byte_length_match_rate": 0.597,
+      "token_type_match_rate": 0.799678,
+      "prefix_match_rate": 0.944646,
+      "empty_match_rate": 0.92765
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Local",
+      "family_b": "qwen",
+      "score": 0.532546,
+      "bcs": 0.532546,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.554158,
+      "byte_length_match_rate": 0.548394,
+      "token_type_match_rate": 0.929824,
+      "prefix_match_rate": 0.98179,
+      "empty_match_rate": 0.997852
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Local",
+      "family_b": "qwen",
+      "score": 0.526348,
+      "bcs": 0.526348,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.548404,
+      "byte_length_match_rate": 0.542258,
+      "token_type_match_rate": 0.91849,
+      "prefix_match_rate": 0.976122,
+      "empty_match_rate": 0.998516
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.525398,
+      "bcs": 0.525398,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.548652,
+      "byte_length_match_rate": 0.54376,
+      "token_type_match_rate": 0.923426,
+      "prefix_match_rate": 0.98114,
+      "empty_match_rate": 0.99315
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.52247,
+      "bcs": 0.52247,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.546952,
+      "byte_length_match_rate": 0.538626,
+      "token_type_match_rate": 0.923166,
+      "prefix_match_rate": 0.981854,
+      "empty_match_rate": 0.997516
+    },
+    {
+      "model_a": "Qwen3.5-9B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.520016,
+      "bcs": 0.520016,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.53385,
+      "byte_length_match_rate": 0.527224,
+      "token_type_match_rate": 0.962126,
+      "prefix_match_rate": 0.998954,
+      "empty_match_rate": 0.992806
+    },
+    {
+      "model_a": "Qwen3.5-9B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.517436,
+      "bcs": 0.517436,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.530396,
+      "byte_length_match_rate": 0.525906,
+      "token_type_match_rate": 0.964706,
+      "prefix_match_rate": 0.99889,
+      "empty_match_rate": 0.992998
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Local",
+      "family_b": "qwen",
+      "score": 0.514,
+      "bcs": 0.514,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.529006,
+      "byte_length_match_rate": 0.523768,
+      "token_type_match_rate": 0.954642,
+      "prefix_match_rate": 0.993552,
+      "empty_match_rate": 0.998012
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.512658,
+      "bcs": 0.512658,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.52722,
+      "byte_length_match_rate": 0.522544,
+      "token_type_match_rate": 0.949788,
+      "prefix_match_rate": 0.992698,
+      "empty_match_rate": 0.99325
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.508284,
+      "bcs": 0.508284,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.524668,
+      "byte_length_match_rate": 0.518208,
+      "token_type_match_rate": 0.950828,
+      "prefix_match_rate": 0.993616,
+      "empty_match_rate": 0.997744
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.442822,
+      "bcs": 0.442822,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.458702,
+      "byte_length_match_rate": 0.455526,
+      "token_type_match_rate": 0.941684,
+      "prefix_match_rate": 0.992342,
+      "empty_match_rate": 0.99363
+    },
+    {
+      "model_a": "Qwen3.5-9B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.424358,
+      "bcs": 0.424358,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.439014,
+      "byte_length_match_rate": 0.434204,
+      "token_type_match_rate": 0.95392,
+      "prefix_match_rate": 0.998586,
+      "empty_match_rate": 0.993178
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.423156,
+      "bcs": 0.423156,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.44684,
+      "byte_length_match_rate": 0.444082,
+      "token_type_match_rate": 0.91344,
+      "prefix_match_rate": 0.98076,
+      "empty_match_rate": 0.993426
+    },
+    {
+      "model_a": "Qwen3.5-9B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.419428,
+      "bcs": 0.419428,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.433734,
+      "byte_length_match_rate": 0.430682,
+      "token_type_match_rate": 0.955448,
+      "prefix_match_rate": 0.998522,
+      "empty_match_rate": 0.993298
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.375648,
+      "bcs": 0.375648,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.411026,
+      "byte_length_match_rate": 0.394444,
+      "token_type_match_rate": 0.920212,
+      "prefix_match_rate": 0.999494,
+      "empty_match_rate": 0.99725
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.36326,
+      "bcs": 0.36326,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.412168,
+      "byte_length_match_rate": 0.40177,
+      "token_type_match_rate": 0.777852,
+      "prefix_match_rate": 0.93802,
+      "empty_match_rate": 0.964066
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Local",
+      "family_b": "qwen",
+      "score": 0.361782,
+      "bcs": 0.361782,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.413646,
+      "byte_length_match_rate": 0.401854,
+      "token_type_match_rate": 0.780516,
+      "prefix_match_rate": 0.931632,
+      "empty_match_rate": 0.979162
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen2.5-7B-Instruct-Local",
+      "family_b": "qwen",
+      "score": 0.35516,
+      "bcs": 0.35516,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.405148,
+      "byte_length_match_rate": 0.395188,
+      "token_type_match_rate": 0.780844,
+      "prefix_match_rate": 0.934358,
+      "empty_match_rate": 0.979234
+    },
+    {
+      "model_a": "Meta-Llama-3-8B-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.354516,
+      "bcs": 0.354516,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.401022,
+      "byte_length_match_rate": 0.39127,
+      "token_type_match_rate": 0.759028,
+      "prefix_match_rate": 0.949966,
+      "empty_match_rate": 0.929198
+    },
+    {
+      "model_a": "Meta-Llama-3.1-8B-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.354382,
+      "bcs": 0.354382,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.403422,
+      "byte_length_match_rate": 0.393382,
+      "token_type_match_rate": 0.757436,
+      "prefix_match_rate": 0.944748,
+      "empty_match_rate": 0.935958
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Local",
+      "family_b": "qwen",
+      "score": 0.34552,
+      "bcs": 0.34552,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.391818,
+      "byte_length_match_rate": 0.38237,
+      "token_type_match_rate": 0.791872,
+      "prefix_match_rate": 0.940134,
+      "empty_match_rate": 0.978494
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.344694,
+      "bcs": 0.344694,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.393498,
+      "byte_length_match_rate": 0.38493,
+      "token_type_match_rate": 0.773904,
+      "prefix_match_rate": 0.939802,
+      "empty_match_rate": 0.963922
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Local",
+      "family_b": "qwen",
+      "score": 0.340982,
+      "bcs": 0.340982,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.384204,
+      "byte_length_match_rate": 0.375974,
+      "token_type_match_rate": 0.786014,
+      "prefix_match_rate": 0.945554,
+      "empty_match_rate": 0.963318
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.340196,
+      "bcs": 0.340196,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.387592,
+      "byte_length_match_rate": 0.37749,
+      "token_type_match_rate": 0.745134,
+      "prefix_match_rate": 0.9369,
+      "empty_match_rate": 0.935852
+    },
+    {
+      "model_a": "Qwen3-8B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.33985,
+      "bcs": 0.33985,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.38528,
+      "byte_length_match_rate": 0.375,
+      "token_type_match_rate": 0.746362,
+      "prefix_match_rate": 0.941806,
+      "empty_match_rate": 0.929084
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.334426,
+      "bcs": 0.334426,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.38422,
+      "byte_length_match_rate": 0.372834,
+      "token_type_match_rate": 0.78589,
+      "prefix_match_rate": 0.940198,
+      "empty_match_rate": 0.978178
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.33368,
+      "bcs": 0.33368,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.388934,
+      "byte_length_match_rate": 0.37662,
+      "token_type_match_rate": 0.78542,
+      "prefix_match_rate": 0.939188,
+      "empty_match_rate": 0.973852
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.332732,
+      "bcs": 0.332732,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.37284,
+      "byte_length_match_rate": 0.356968,
+      "token_type_match_rate": 0.902756,
+      "prefix_match_rate": 0.998096,
+      "empty_match_rate": 0.993016
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.329758,
+      "bcs": 0.329758,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.38288,
+      "byte_length_match_rate": 0.372928,
+      "token_type_match_rate": 0.780144,
+      "prefix_match_rate": 0.944596,
+      "empty_match_rate": 0.958696
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.329338,
+      "bcs": 0.329338,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.376116,
+      "byte_length_match_rate": 0.365808,
+      "token_type_match_rate": 0.78016,
+      "prefix_match_rate": 0.945614,
+      "empty_match_rate": 0.962978
+    },
+    {
+      "model_a": "Qwen3.5-9B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.328534,
+      "bcs": 0.328534,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.368144,
+      "byte_length_match_rate": 0.360036,
+      "token_type_match_rate": 0.75916,
+      "prefix_match_rate": 0.950932,
+      "empty_match_rate": 0.929152
+    },
+    {
+      "model_a": "Qwen3.5-9B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.32826,
+      "bcs": 0.32826,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.369958,
+      "byte_length_match_rate": 0.36161,
+      "token_type_match_rate": 0.757594,
+      "prefix_match_rate": 0.94571,
+      "empty_match_rate": 0.935868
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.32811,
+      "bcs": 0.32811,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.37107,
+      "byte_length_match_rate": 0.350536,
+      "token_type_match_rate": 0.907554,
+      "prefix_match_rate": 0.998448,
+      "empty_match_rate": 0.992596
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.325624,
+      "bcs": 0.325624,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.370048,
+      "byte_length_match_rate": 0.361726,
+      "token_type_match_rate": 0.746604,
+      "prefix_match_rate": 0.945132,
+      "empty_match_rate": 0.929124
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.325414,
+      "bcs": 0.325414,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.371734,
+      "byte_length_match_rate": 0.36384,
+      "token_type_match_rate": 0.745344,
+      "prefix_match_rate": 0.939962,
+      "empty_match_rate": 0.935872
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3.5-9B-Local",
+      "family_b": "qwen",
+      "score": 0.319308,
+      "bcs": 0.319308,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.357966,
+      "byte_length_match_rate": 0.340212,
+      "token_type_match_rate": 0.911816,
+      "prefix_match_rate": 0.99943,
+      "empty_match_rate": 0.997338
+    },
+    {
+      "model_a": "Qwen3.5-9B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.318978,
+      "bcs": 0.318978,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.365022,
+      "byte_length_match_rate": 0.35424,
+      "token_type_match_rate": 0.751798,
+      "prefix_match_rate": 0.945774,
+      "empty_match_rate": 0.935544
+    },
+    {
+      "model_a": "Qwen3.5-9B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.318708,
+      "bcs": 0.318708,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.362252,
+      "byte_length_match_rate": 0.352042,
+      "token_type_match_rate": 0.753582,
+      "prefix_match_rate": 0.950992,
+      "empty_match_rate": 0.928828
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Local",
+      "family_b": "qwen",
+      "score": 0.313256,
+      "bcs": 0.313256,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.366772,
+      "byte_length_match_rate": 0.342666,
+      "token_type_match_rate": 0.871136,
+      "prefix_match_rate": 0.981384,
+      "empty_match_rate": 0.997614
+    },
+    {
+      "model_a": "Qwen2.5-7B-Instruct-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-1.7B-Local",
+      "family_b": "qwen",
+      "score": 0.312912,
+      "bcs": 0.312912,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.35397,
+      "byte_length_match_rate": 0.335862,
+      "token_type_match_rate": 0.898012,
+      "prefix_match_rate": 0.993126,
+      "empty_match_rate": 0.997894
+    },
+    {
+      "model_a": "Meta-Llama-3-8B-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.310348,
+      "bcs": 0.310348,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.36173,
+      "byte_length_match_rate": 0.354108,
+      "token_type_match_rate": 0.747516,
+      "prefix_match_rate": 0.949614,
+      "empty_match_rate": 0.928042
+    },
+    {
+      "model_a": "Meta-Llama-3-8B-Instruct-Local",
+      "family_a": "llama",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.30935,
+      "bcs": 0.30935,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.363426,
+      "byte_length_match_rate": 0.355722,
+      "token_type_match_rate": 0.745732,
+      "prefix_match_rate": 0.9444,
+      "empty_match_rate": 0.934462
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.298958,
+      "bcs": 0.298958,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.357166,
+      "byte_length_match_rate": 0.347,
+      "token_type_match_rate": 0.77578,
+      "prefix_match_rate": 0.938816,
+      "empty_match_rate": 0.974108
+    },
+    {
+      "model_a": "Qwen3-8B-Base-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Instruct-Local",
+      "family_b": "llama",
+      "score": 0.29696,
+      "bcs": 0.29696,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.353604,
+      "byte_length_match_rate": 0.34598,
+      "token_type_match_rate": 0.770002,
+      "prefix_match_rate": 0.944236,
+      "empty_match_rate": 0.958988
+    },
+    {
+      "model_a": "Qwen2.5-7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-1.7B-Local",
+      "family_b": "qwen",
+      "score": 0.251856,
+      "bcs": 0.251856,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.3298,
+      "byte_length_match_rate": 0.306362,
+      "token_type_match_rate": 0.739912,
+      "prefix_match_rate": 0.939724,
+      "empty_match_rate": 0.978104
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Qwen3-8B-Base-Local",
+      "family_b": "qwen",
+      "score": 0.25087,
+      "bcs": 0.25087,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.326606,
+      "byte_length_match_rate": 0.30367,
+      "token_type_match_rate": 0.734172,
+      "prefix_match_rate": 0.945132,
+      "empty_match_rate": 0.962912
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3-8B-Local",
+      "family_b": "llama",
+      "score": 0.246866,
+      "bcs": 0.246866,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.320618,
+      "byte_length_match_rate": 0.29746,
+      "token_type_match_rate": 0.709276,
+      "prefix_match_rate": 0.95051,
+      "empty_match_rate": 0.928314
+    },
+    {
+      "model_a": "Qwen3-1.7B-Local",
+      "family_a": "qwen",
+      "model_b": "Meta-Llama-3.1-8B-Local",
+      "family_b": "llama",
+      "score": 0.246266,
+      "bcs": 0.246266,
+      "common_probe_count": 500000,
+      "char_length_match_rate": 0.323252,
+      "byte_length_match_rate": 0.299384,
+      "token_type_match_rate": 0.707706,
+      "prefix_match_rate": 0.945288,
+      "empty_match_rate": 0.93501
+    }
+  ],
+  "nearest_neighbors": {
+    "Qwen2.5-7B-Local": [
+      {
+        "model": "Qwen3-8B-Base-Local",
+        "family": "qwen",
+        "score": 0.667976
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Local",
+        "family": "llama",
+        "score": 0.575258
+      },
+      {
+        "model": "Meta-Llama-3-8B-Local",
+        "family": "llama",
+        "score": 0.570634
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.361782
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.35516
+      }
+    ],
+    "Qwen2.5-7B-Instruct-Local": [
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.526348
+      },
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.514
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.512658
+      },
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.508284
+      },
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.442822
+      }
+    ],
+    "Qwen3-1.7B-Local": [
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.375648
+      },
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.332732
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.32811
+      },
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.319308
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.313256
+      }
+    ],
+    "Qwen3-8B-Local": [
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.532546
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.526348
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.525398
+      },
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.52247
+      },
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.423156
+      }
+    ],
+    "Qwen3-8B-Base-Local": [
+      {
+        "model": "Qwen2.5-7B-Local",
+        "family": "qwen",
+        "score": 0.667976
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Local",
+        "family": "llama",
+        "score": 0.584402
+      },
+      {
+        "model": "Meta-Llama-3-8B-Local",
+        "family": "llama",
+        "score": 0.580022
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.36326
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.344694
+      }
+    ],
+    "Qwen3.5-9B-Local": [
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.717328
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.532546
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.517436
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.514
+      },
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.419428
+      }
+    ],
+    "Qwen3.5-9B-Base-Local": [
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.717328
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.52247
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.520016
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.508284
+      },
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.424358
+      }
+    ],
+    "Meta-Llama-3-8B-Local": [
+      {
+        "model": "Meta-Llama-3.1-8B-Local",
+        "family": "llama",
+        "score": 0.832502
+      },
+      {
+        "model": "Qwen3-8B-Base-Local",
+        "family": "qwen",
+        "score": 0.580022
+      },
+      {
+        "model": "Qwen2.5-7B-Local",
+        "family": "qwen",
+        "score": 0.570634
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.354516
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.33985
+      }
+    ],
+    "Meta-Llama-3-8B-Instruct-Local": [
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.574846
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.442822
+      },
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.424358
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.423156
+      },
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.419428
+      }
+    ],
+    "Meta-Llama-3.1-8B-Local": [
+      {
+        "model": "Meta-Llama-3-8B-Local",
+        "family": "llama",
+        "score": 0.832502
+      },
+      {
+        "model": "Qwen3-8B-Base-Local",
+        "family": "qwen",
+        "score": 0.584402
+      },
+      {
+        "model": "Qwen2.5-7B-Local",
+        "family": "qwen",
+        "score": 0.575258
+      },
+      {
+        "model": "Meta-Llama-3.1-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.354382
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.340196
+      }
+    ],
+    "Meta-Llama-3.1-8B-Instruct-Local": [
+      {
+        "model": "Meta-Llama-3-8B-Instruct-Local",
+        "family": "llama",
+        "score": 0.574846
+      },
+      {
+        "model": "Qwen3-8B-Local",
+        "family": "qwen",
+        "score": 0.525398
+      },
+      {
+        "model": "Qwen3.5-9B-Base-Local",
+        "family": "qwen",
+        "score": 0.520016
+      },
+      {
+        "model": "Qwen3.5-9B-Local",
+        "family": "qwen",
+        "score": 0.517436
+      },
+      {
+        "model": "Qwen2.5-7B-Instruct-Local",
+        "family": "qwen",
+        "score": 0.512658
+      }
+    ]
+  },
+  "same_source_rule": {
+    "top1_score_threshold": 0.5,
+    "top1_minus_top2_threshold": 0.08
+  }
+}

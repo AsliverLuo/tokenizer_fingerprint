@@ -1,0 +1,15 @@
+{
+  "output": "probes/en_de_fr_ar_zh_integrated_smoke50_probes.json",
+  "label": "balanced_smoke50_from_integrated_en_de_fr_ar_zh_probe_corpus",
+  "seed": 20260712,
+  "generated_count": 50,
+  "source_lang_counts": {
+    "arabic": 10,
+    "chinese": 10,
+    "english": 10,
+    "french": 10,
+    "german": 10
+  },
+  "parent_corpus": "probes/en_de_fr_ar_zh_integrated_500000_probes.json",
+  "samples_per_language": 10
+}

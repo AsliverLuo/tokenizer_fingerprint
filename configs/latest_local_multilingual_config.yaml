@@ -1,0 +1,78 @@
+query_protocol:
+  max_tokens: 1
+  temperature: 0
+  top_p: 1
+  presence_penalty: 0
+  frequency_penalty: 0
+  system_prompt: |-
+    Continue the provided prefix as raw text.
+    Output only the immediate continuation.
+    Do not explain, quote, or add a newline.
+  stability_repeat_ratio: 0.1
+  stability_repeat_count: 3
+
+reference_models:
+- name: Qwen2.5-7B-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen2.5-7B
+    base_url: http://127.0.0.1:18001/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    output_normalization:
+      strip_leading_newlines: true
+- name: Qwen3-8B-Base-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen3-8B-Base
+    base_url: http://127.0.0.1:18006/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    output_normalization:
+      strip_leading_newlines: true
+- name: Meta-Llama-3-8B-Local
+  family: llama
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: LLM-Research/Meta-Llama-3-8B
+    base_url: http://127.0.0.1:18101/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    output_normalization:
+      strip_leading_newlines: true
+- name: Meta-Llama-3.1-8B-Local
+  family: llama
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: LLM-Research/Meta-Llama-3.1-8B
+    base_url: http://127.0.0.1:18103/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    output_normalization:
+      strip_leading_newlines: true

@@ -1,0 +1,68 @@
+[
+  {
+    "model_name": "Qwen2.5-7B-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen2.5-7B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen2.5-7B-Instruct-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen2.5-7B-Instruct-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen3-1.7B-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen3-1.7B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen3-8B-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen3-8B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen3-8B-Base-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen3-8B-Base-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen3.5-9B-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen3.5-9B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Qwen3.5-9B-Base-Local",
+    "family": "qwen",
+    "path": "qwen/Qwen3.5-9B-Base-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Meta-Llama-3-8B-Local",
+    "family": "llama",
+    "path": "llama/Meta-Llama-3-8B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Meta-Llama-3-8B-Instruct-Local",
+    "family": "llama",
+    "path": "llama/Meta-Llama-3-8B-Instruct-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Meta-Llama-3.1-8B-Local",
+    "family": "llama",
+    "path": "llama/Meta-Llama-3.1-8B-Local.json",
+    "n_probes": 500000
+  },
+  {
+    "model_name": "Meta-Llama-3.1-8B-Instruct-Local",
+    "family": "llama",
+    "path": "llama/Meta-Llama-3.1-8B-Instruct-Local.json",
+    "n_probes": 500000
+  }
+]

@@ -1,0 +1,304 @@
+query_protocol:
+  max_tokens: 1
+  temperature: 0
+  top_p: 1
+  presence_penalty: 0
+  frequency_penalty: 0
+  system_prompt: |-
+    Continue the provided prefix as raw text.
+    Output only the immediate continuation.
+    Do not explain, quote, or add a newline.
+  stability_repeat_ratio: 0.1
+  stability_repeat_count: 3
+
+probes:
+  total_count: 500
+  categories:
+    chinese_natural: 0.15
+    english_natural: 0.15
+    code: 0.15
+    chinese_english_mixed: 0.1
+    number_date_amount: 0.1
+    json_yaml_markdown: 0.1
+    url_path_email: 0.1
+    truncated_partial: 0.15
+  truncation_ratios:
+  - 0.3
+  - 0.5
+  - 0.7
+  - 0.9
+
+reference_models:
+- name: DeepSeek-V4-Pro
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-v4-pro
+    base_url: https://api.deepseek.com/beta
+    endpoint: chat_completions
+    message_mode: deepseek_chat_prefix
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0.2
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V4-Flash
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-v4-flash
+    base_url: https://api.deepseek.com/beta
+    endpoint: chat_completions
+    message_mode: deepseek_chat_prefix
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0.2
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: GLM-5.1
+  family: glm
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/zai-org/GLM-5.1
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: MiniMax-M2.5-Pro
+  family: minimax
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/MiniMaxAI/MiniMax-M2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: MiniMax-M2.5
+  family: minimax
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: MiniMaxAI/MiniMax-M2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V3.2
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: deepseek-ai/DeepSeek-V3.2
+    base_url: https://api.siliconflow.cn/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V3.2-Pro
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/deepseek-ai/DeepSeek-V3.2
+    base_url: https://api.siliconflow.cn/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+target_models:
+- name: DeepSeek-V4-Pro
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-v4-pro
+    base_url: https://api.deepseek.com/beta
+    endpoint: chat_completions
+    message_mode: deepseek_chat_prefix
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0.2
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V4-Flash
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-v4-flash
+    base_url: https://api.deepseek.com/beta
+    endpoint: chat_completions
+    message_mode: deepseek_chat_prefix
+    request_timeout: 300
+    max_retries: 5
+    retry_delay: 2
+    request_interval: 0.2
+    empty_output_retries: 3
+    empty_retry_delay: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: GLM-5.1
+  family: glm
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/zai-org/GLM-5.1
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: MiniMax-M2.5-Pro
+  family: minimax
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/MiniMaxAI/MiniMax-M2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: MiniMax-M2.5
+  family: minimax
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: MiniMaxAI/MiniMax-M2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    endpoint: chat_completions
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V3.2
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: deepseek-ai/DeepSeek-V3.2
+    base_url: https://api.siliconflow.cn/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+- name: DeepSeek-V3.2-Pro
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: ${SILICONFLOW_API_KEY}
+    model: Pro/deepseek-ai/DeepSeek-V3.2
+    base_url: https://api.siliconflow.cn/v1
+    endpoint: chat_completions
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.2
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+
+scoring:
+  mode: bcs
+  bcs:
+    enabled_categories: null
+  weights:
+    char_length: 0.25
+    byte_length: 0.25
+    token_type: 0.25
+    transition: 0.25
+  thresholds:
+    ood_threshold: 0.4
+    family_threshold: 0.7
+    wrapped_threshold: 0.85
+    variance_threshold: 0.15
+  bootstrap:
+    n_iterations: 100
+    sample_ratio: 0.8
+
+evaluation:
+  query_budgets:
+  - 50
+  - 100
+  - 200
+  - 300
+  - 500
+  cross_lingual_subsets:
+  - chinese
+  - english
+  - code
+  - mixed

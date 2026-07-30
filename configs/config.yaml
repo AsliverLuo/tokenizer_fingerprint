@@ -1,0 +1,352 @@
+query_protocol:
+  max_tokens: 1
+  temperature: 0
+  top_p: 1
+  presence_penalty: 0
+  frequency_penalty: 0
+  system_prompt: 直接续写，不要解释，不要补充说明。
+  stability_repeat_ratio: 0.1
+  stability_repeat_count: 3
+probes:
+  total_count: 500
+  categories:
+    chinese_natural: 0.15
+    english_natural: 0.15
+    code: 0.15
+    chinese_english_mixed: 0.1
+    number_date_amount: 0.1
+    json_yaml_markdown: 0.1
+    url_path_email: 0.1
+    truncated_partial: 0.15
+  truncation_ratios:
+  - 0.3
+  - 0.5
+  - 0.7
+  - 0.9
+reference_models:
+- name: Kimi-K2.5
+  family: kimi
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/moonshotai/Kimi-K2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: Seed-OSS
+  family: Seed-OSS
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: ByteDance-Seed/Seed-OSS-36B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: DeepSeek-V3
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/deepseek-ai/DeepSeek-V3
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: DeepSeek-R1
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/deepseek-ai/DeepSeek-R1
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      thinking:
+        type: disabled
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+- name: DeepSeek-V3.1-Terminus
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: deepseek-ai/DeepSeek-V3.1-Terminus
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: GLM-4-32B
+  family: glm
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: THUDM/GLM-4-32B-0414
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Baichuan4
+  family: baichuan
+  provider: openai
+  api_config:
+    api_key: sk-84c4360b01f259d0ea2e98608ee8a653
+    model: Baichuan4
+    base_url: https://api.baichuan-ai.com/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.5
+    system_prompt: 你是一个纯文本续写器。只输出紧接着输入文本后的下一个 token，不要解释，不要补全句子，不要使用 Markdown，不要拒答。
+    message_mode: user_prompt
+    extra_body:
+      frequency_penalty: 1
+- name: Qwen3.5-397B-A17B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen3.5-397B-A17B
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      enable_thinking: false
+    request_timeout: 300
+- name: Qwen3-32B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen3-32B
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      enable_thinking: false
+    request_timeout: 300
+- name: Qwen2.5-32B-Instruct
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen2.5-32B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+- name: Qwen2.5-Coder-32B-Instruct
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen2.5-Coder-32B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: QwQ-32B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/QwQ-32B
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+target_models:
+- name: Qwen2.5-7B-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen2.5-7B
+    base_url: http://127.0.0.1:18001/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Qwen2.5-7B-Instruct-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen2.5-7B-Instruct
+    base_url: http://127.0.0.1:18002/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Qwen2.5-Coder-7B-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen2.5-Coder-7B
+    base_url: http://127.0.0.1:18003/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Qwen2.5-Coder-7B-Instruct-Local
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: ${LOCAL_DUMMY_KEY}
+    model: Qwen/Qwen2.5-Coder-7B-Instruct
+    base_url: http://127.0.0.1:18004/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Qwen2.5-Coder-32B-Instruct
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen2.5-Coder-32B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: Kimi-K2.5
+  family: kimi
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/moonshotai/Kimi-K2.5
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: Seed-OSS
+  family: Seed-OSS
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: ByteDance-Seed/Seed-OSS-36B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: DeepSeek-V3
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/deepseek-ai/DeepSeek-V3
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: DeepSeek-R1
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Pro/deepseek-ai/DeepSeek-R1
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      thinking:
+        type: disabled
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+- name: DeepSeek-V3.1-Terminus
+  family: deepseek
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: deepseek-ai/DeepSeek-V3.1-Terminus
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: GLM-4-32B
+  family: glm
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: THUDM/GLM-4-32B-0414
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    output_normalization:
+      strip_leading_newlines: true
+- name: Baichuan4
+  family: baichuan
+  provider: openai
+  api_config:
+    api_key: sk-84c4360b01f259d0ea2e98608ee8a653
+    model: Baichuan4
+    base_url: https://api.baichuan-ai.com/v1
+    request_timeout: 300
+    max_retries: 8
+    retry_delay: 2
+    request_interval: 0.5
+    system_prompt: 你是一个纯文本续写器。只输出紧接着输入文本后的下一个 token，不要解释，不要补全句子，不要使用 Markdown，不要拒答。
+    message_mode: user_prompt
+    extra_body:
+      frequency_penalty: 1
+- name: Qwen3.5-397B-A17B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen3.5-397B-A17B
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      enable_thinking: false
+    request_timeout: 300
+- name: Qwen3-32B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen3-32B
+    base_url: https://api.siliconflow.cn/v1
+    extra_body:
+      enable_thinking: false
+    request_timeout: 300
+- name: Qwen2.5-32B-Instruct
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen2.5-32B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+- name: Qwen2.5-Coder-32B-Instruct
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/Qwen2.5-Coder-32B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+- name: QwQ-32B
+  family: qwen
+  provider: openai
+  api_config:
+    api_key: sk-ddqqhrsdajbfibgpvwralakwclrhkoixxfooarhwdierooeb
+    model: Qwen/QwQ-32B
+    base_url: https://api.siliconflow.cn/v1
+    request_timeout: 300
+    system_prompt: 你是纯文本续写器。不要解释，不要换行，只继续 assistant 已有文本。
+    message_mode: assistant_prefill
+    extra_body:
+      enable_thinking: false
+    output_normalization:
+      strip_leading_newlines: true
+scoring:
+  mode: bcs
+  bcs:
+    enabled_categories: null
+  weights:
+    char_length: 0.25
+    byte_length: 0.25
+    token_type: 0.25
+    transition: 0.25
+  thresholds:
+    ood_threshold: 0.4
+    family_threshold: 0.7
+    wrapped_threshold: 0.85
+    variance_threshold: 0.15
+  bootstrap:
+    n_iterations: 100
+    sample_ratio: 0.8
+evaluation:
+  query_budgets:
+  - 50
+  - 100
+  - 200
+  - 300
+  - 500
+  cross_lingual_subsets:
+  - chinese
+  - english
+  - code
+  - mixed

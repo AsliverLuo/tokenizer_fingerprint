@@ -1,0 +1,52 @@
+{
+  "output": "probes/en_de_fr_ar_zh_integrated_500000_probes.json",
+  "label": "integrated_en_de_fr_ar_zh_probe_corpus",
+  "description": "Deterministically shuffled integration of English WikiText and German/French/Arabic/Chinese Wikipedia truncation probes.",
+  "seed": 20260712,
+  "generated_count": 500000,
+  "source_lang_counts": {
+    "arabic": 100000,
+    "chinese": 100000,
+    "english": 100000,
+    "french": 100000,
+    "german": 100000
+  },
+  "inputs": [
+    {
+      "language": "en",
+      "source_lang": "english",
+      "path": "probes/wikitext_truncated_100000_probes.json",
+      "count": 100000,
+      "category": "english_partial"
+    },
+    {
+      "language": "de",
+      "source_lang": "german",
+      "path": "probes/wikipedia_20231101_de_truncated_100000_probes.json",
+      "count": 100000,
+      "category": "german_partial"
+    },
+    {
+      "language": "fr",
+      "source_lang": "french",
+      "path": "probes/wikipedia_20231101_fr_truncated_100000_probes.json",
+      "count": 100000,
+      "category": "french_partial"
+    },
+    {
+      "language": "ar",
+      "source_lang": "arabic",
+      "path": "probes/wikipedia_20231101_ar_truncated_100000_probes.json",
+      "count": 100000,
+      "category": "arabic_partial"
+    },
+    {
+      "language": "zh",
+      "source_lang": "chinese",
+      "path": "probes/wikipedia_20231101_zh_truncated_100000_probes.json",
+      "count": 100000,
+      "category": "chinese_partial"
+    }
+  ],
+  "shuffle": true
+}
